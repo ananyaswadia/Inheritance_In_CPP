@@ -13,6 +13,46 @@ The inheritance can be classified on the basis of the relationship between the d
 5. Hybrid inheritance
 ## Algorithms
 ### Single Level
+1. Start.
+
+2. Define base class Vehical with data member brand and function color().
+
+3. Define derived class Car inheriting from Vehical, with data member model.
+
+4. In main(), create object mycar of class Car.
+
+5. Display car brand and model.
+
+6. Call color() function to display the color.
+
+7. End.
 ### Multi Level
+1. Start.
+
+2. Define class Material with types of materials.
+
+3. Define class Length inheriting from Material, with fabric lengths.
+
+4. Define class Cloth inheriting from Length, with types of clothes.
+
+5. In main(), create objects mycloth and mycloth2.
+
+6. Display order details with material, cloth type, and required length.
+
+7. End.
 ### Hierarchical 
+1. Start.
+
+2. Define base class Organism with constructor printing "Mammal".
+
+3. Define derived classes Type1 (Dog) and Type2 (Cat).
+
+4. Define further derived classes: Species1 (Dog breeds) and Species2 (Cat breeds).
+
+5. In main(), create object s1 of Species1 → prints hierarchy for dogs.
+
+6. Create object s2 of Species2 → prints hierarchy for cats.
+
+7. End.
 ## Conclusion
+With this experiment we learnt to apply 4 types of Inheritance in C++.
